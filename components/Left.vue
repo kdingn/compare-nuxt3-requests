@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>A</div>
+  <div>left contenttttttt</div>
 </template>
+
+<style scoped></style>
