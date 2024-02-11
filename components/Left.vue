@@ -5,7 +5,7 @@ var inputUrl = ref("");
 const data = ref<any>("");
 
 function setUrl() {
-  inputUrl.value = "https://ai-data-base.com/archives/64001";
+  inputUrl.value = "https://github.com/kdingn";
 }
 
 function updateContent() {
@@ -20,7 +20,7 @@ function updateContent() {
 
 <template>
   <div class="left-content">
-    <div>/api</div>
+    <h2 class="left-title">/api</h2>
     <div>
       <input type="form" class="left-input" v-model="inputUrl" />
       <button @click="updateContent">request</button>
@@ -33,6 +33,9 @@ function updateContent() {
 <style scoped>
 .left-content {
   width: 49vw;
+}
+.left-title {
+  margin: 0 auto;
 }
 .left-input {
   width: 30vw;
