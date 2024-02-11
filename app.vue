@@ -26,7 +26,7 @@ html body {
   outline: solid;
   outline-color: rgba(122, 202, 225);
   width: 49vw;
-  height: calc(100vh - 5rem);
+  min-height: calc(100vh - 5rem);
 }
 .right {
   padding: 0.5rem;
@@ -36,6 +36,6 @@ html body {
   outline: solid;
   outline-color: rgba(142, 198, 111);
   width: 49vw;
-  height: calc(100vh - 5rem);
+  min-height: calc(100vh - 5rem);
 }
 </style>
